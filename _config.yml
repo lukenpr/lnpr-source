@@ -2,12 +2,13 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://lukenpr.github.io/lukenpr.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+# url: http://lukenpr.github.io/lukenpr.com
+url: http://lukenpr.com
+title: LUKENPR
+subtitle: The personal blog and lair of Luke Martin.
+author: Luke Martin
 simple_search: https://www.google.com/search
-description:
+description: The personal blog of Luke Martin, writer, journalist, programmer, and designer.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,7 +17,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /lukenpr.com/atom.xml
+subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,8 +27,8 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /lukenpr.com
-permalink: /blog/:year/:month/:day/:title/
+root: /
+permalink: /:year/:month/:day/:title/
 source: source
 destination: public/lukenpr.com
 plugins: plugins
@@ -41,9 +42,9 @@ rdiscount:
     - smart
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 1          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
-recent_posts: 5       # Posts in the sidebar Recent Posts section
+recent_posts: 1       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 
@@ -70,8 +71,8 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
-twitter_tweet_button: true
+twitter_user: lukenpr
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -91,11 +92,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: lukenprcom
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-63920394-2
 
 # Facebook Like
 facebook_like: false
